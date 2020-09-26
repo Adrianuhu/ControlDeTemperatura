@@ -30,7 +30,8 @@ select tiempo, avg(temperatura) from temperaturas_duron.temperaturas where day(t
 
 select tiempo, avg(temperatura) 'temperatura' from temperaturas_duron.temperaturas group by year(tiempo);
 
-
+SELECT *
+  FROM temperaturas_duron.temperaturas;
 
 
 
